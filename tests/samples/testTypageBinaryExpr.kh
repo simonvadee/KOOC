@@ -1,0 +1,13 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+@module Titi
+{
+  char		**a = NULL;
+  char		*a = NULL;
+  long double	a = 0;
+  int		**a = NULL;
+  void		f(int);
+  char		**f(int, int *, int **);
+  long double	b = 10;
+}

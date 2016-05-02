@@ -1,0 +1,13 @@
+@import "testWrongMangling.kh"
+
+@implementation Bar
+{
+}
+
+@implementation Foo
+{
+@member int f() {}
+int f() {}
+}
+
+int main() {}

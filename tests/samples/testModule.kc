@@ -1,0 +1,25 @@
+@import "testModule.kh"
+
+@implementation Bar
+{
+ int f1()
+ {
+
+ }
+ float f1()
+ {
+
+ }
+ double f1()
+ {
+
+ }
+}
+
+int main()
+{
+struct s_test s;
+enum e_test e;
+union u_test u;
+toto s2;
+}

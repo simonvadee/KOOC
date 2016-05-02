@@ -1,0 +1,11 @@
+@module Bar
+{
+int c();
+int c = 5;
+}
+
+@class Foo
+{
+@member int f();
+int f();
+}

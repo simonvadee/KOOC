@@ -1,0 +1,33 @@
+@import "testTypageClass.kh"
+
+@implementation Bar
+{
+  int non_member_function() {}
+  double non_member_function() {}
+
+  @member int *member_func() {}
+
+  @virtual char *virtual_func() {}
+  @virtual int virtual_func() {}
+}
+
+@implementation Foo
+{
+  @virtual char *virtual_func() {}
+  @virtual char *virtual_func(int a) {}
+}
+
+int main()
+{
+  Bar *bar;
+  Foo *foo;
+  int a = 2;
+
+  bar = [Bar new];
+  [bar member_func];
+  [bar non_member_function];
+  foo = [Foo new];
+  [foo virtual_func :a];
+  a = [foo.member_var];
+  return (0);
+}

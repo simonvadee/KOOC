@@ -1,0 +1,34 @@
+@import "testClass.kh"
+
+@implementation Bar
+{
+int non_member_function() {}
+double non_member_function() {}
+
+@member int *member_func() {}
+
+@virtual char *virtual_func() {}
+@virtual int virtual_func() {}
+}
+
+@implementation Foo
+{
+@virtual char *virtual_func() {}
+@virtual char *virtual_func(int a) {}
+
+@virtual void clean() {}
+}
+
+int main()
+{
+Bar *bar;
+Foo *foo;
+int a;
+
+a = 0;
+foo = [foo new];
+[bar init];
+[foo delete];
+[bar virtual_func];
+[foo virtual_func :a];
+}

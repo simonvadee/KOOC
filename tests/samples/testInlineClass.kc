@@ -1,0 +1,4 @@
+@class Toto
+{
+inline int toto();
+}

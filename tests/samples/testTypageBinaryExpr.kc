@@ -1,0 +1,40 @@
+@import "testTypageBinaryExpr.kh"
+
+@implementation Titi
+{
+  void	f(int a)
+  {
+    printf("Appel de la fonction f OK\n");
+  }
+  char	**f(int a, int *b, int **c)
+  {
+    printf("Ca renvoit juste NULL\n");
+    return (NULL);
+  }
+}
+
+int **g_c = NULL;
+
+int	totofunc(int i)
+{
+  return (i);
+}
+
+int	main(int ac, char **av)
+{
+  int	a = 18;
+  int	*b = &a;
+  int	**c = &b;
+
+  [Titi.a] = 2;
+  [Titi.a] = [Titi.b]
+  [Titi.a] = "toto";
+  [Titi.a] = &b;
+  [Titi.a] = c;
+  [Titi.a] = g_c;
+  [Titi f :a];
+  [Titi f :a :b :c];
+  [Titi.a] = [Titi f :a :b :c];
+  totofunc(2);
+  return (0);
+}

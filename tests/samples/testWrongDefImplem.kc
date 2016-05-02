@@ -1,0 +1,9 @@
+@class Toto
+{
+int a = 5;
+}
+
+@implementation Toto
+{
+int a = 5;
+}

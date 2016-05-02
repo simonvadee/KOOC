@@ -1,0 +1,6 @@
+@class Toto {}
+
+@implementation Toto
+{
+@member int f() {}
+}

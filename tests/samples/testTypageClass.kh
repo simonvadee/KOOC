@@ -1,0 +1,29 @@
+#include <stdlib.h>
+
+@class Bar
+{
+int non_member_var = 3;
+float non_member_var = 5.5;
+
+int non_member_function();
+double non_member_function();
+
+@member int member_var;
+@member char *member_var;
+
+@member int *member_func();
+
+@virtual char *virtual_func();
+@virtual int virtual_func();
+}
+
+@class Foo : Bar
+{
+@member int member_var;
+@member long int member_var;
+@member char member_var;
+@member void *member_var;
+
+@virtual char *virtual_func();
+@virtual char *virtual_func(int a);
+}

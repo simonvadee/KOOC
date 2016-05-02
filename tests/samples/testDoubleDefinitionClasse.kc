@@ -1,0 +1,5 @@
+@class Toto
+{
+@member int a;
+@member int a;
+}

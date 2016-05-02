@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#/home/simon/rendu/kooc/atBrackets.py</OriginalElement>
+  <nodes>
+    <node x="-1009.9999999999998" y="664.9999999999998">atBrackets.atBrackets</node>
+    <node x="-447.33333333333326" y="-241.6666666666665">module.atModule</node>
+    <node x="-485.33333333333326" y="223.66666666666674">atclass.atClass</node>
+    <node x="386.6666666666665" y="-240.0">implementation.atImplementation</node>
+    <node x="1338.9999999999998" y="-235.99999999999977">typeSystem.TypeSystem</node>
+    <node x="432.66666666666674" y="730.0">koocNorm.KoocNorm</node>
+    <node x="-422.33333333333337" y="658.3333333333334">include.atImport</node>
+    <node x="-863.6666666666667" y="281.9999999999999">atvirtual.atVirtual</node>
+    <node x="1130.9999999999998" y="730.0">solveLiteral.SolveLiteral</node>
+    <node x="-1002.6666666666667" y="-234.99999999999994">atmember.atMember</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="atvirtual.atVirtual" target="atmember.atMember">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="atclass.atClass" target="module.atModule">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="2398.0" y="548.9999999999998" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+  </Categories>
+</Diagram>
+
